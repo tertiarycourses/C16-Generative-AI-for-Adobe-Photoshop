@@ -1,22 +1,19 @@
-# Labs — Generative AI for Adobe Photoshop (C16)
+# Generative AI for Adobe Photoshop — Labs
 
-**Course Code:** C16  |  **Version v1.0 · 27 July 2026**
+**Course code:** C16
+**Version:** v7 · 21 August 2026
 
-All 10 labs build one connected **Solace Radiance Serum campaign key visual**, which you begin in Lab 1 and finish in Lab 10 — from writing effective prompts, through Generative Fill, Generative Expand, the AI Remove tool and background replacement, into text-to-image, portrait retouching and a masked, blended composite, and out as a finished, exported deliverable checked for commercial use. A Solace reference pack and starter files are supplied in `reference-pack/` and `starter-files/`; use your own non-confidential product wherever you prefer. There is **no assessment** — each lab verifies itself with a 'Test it' step.
+Each lab is self-contained. Open its folder, read the guide, and work only on the supplied PSD/JPEG assets. Save all outputs inside the same lab folder or your trainer-approved workspace.
 
-| Day | Topic | Lab | Title |
-|---:|---|---:|---|
-| 1 | 01 | 01 | [Get Started with Firefly and Generative AI in Photoshop](lab-01-get-started-with-firefly-and-generative-ai-in-photoshop.md) |
-| 1 | 01 | 02 | [Write Effective Prompts for Image Generation](lab-02-write-effective-prompts-for-image-generation.md) |
-| 1 | 01 | 03 | [Add and Remove Content with Generative Fill](lab-03-add-and-remove-content-with-generative-fill.md) |
-| 1 | 01 | 04 | [Extend Images with Generative Expand](lab-04-extend-images-with-generative-expand.md) |
-| 1 | 01 | 05 | [One-Click Cleanup with the AI Remove Tool](lab-05-one-click-cleanup-with-the-ai-remove-tool.md) |
-| 1 | 01 | 06 | [Generate and Replace the Background](lab-06-generate-and-replace-the-background.md) |
-| 1 | 02 | 07 | [Text-to-Image Generation with Reference Images and Styles](lab-07-text-to-image-generation-with-reference-images-and-styles.md) |
-| 1 | 02 | 08 | [AI-Powered Portrait Retouching and Neural Filters](lab-08-ai-powered-portrait-retouching-and-neural-filters.md) |
-| 1 | 02 | 09 | [Combine Generative Layers with Masks and Blend Modes](lab-09-combine-generative-layers-with-masks-and-blend-modes.md) |
-| 1 | 02 | 10 | [Build the End-to-End Workflow and Check Commercial Use and IP](lab-10-build-the-end-to-end-workflow-and-check-commercial-use-and-i.md) |
+## Lab sequence
 
-## Tools
-
-See [tools.md](tools.md) for the accounts and tools used across the labs, and [reference-pack/](reference-pack/) for the sample object.
+1. [Lab 01 — Prompt-to-Image Visual Brief](lab-01-prompt-to-image-visual-brief/README.md) — Translate an audience brief into a controlled Firefly prompt set and selected visual direction.
+2. [Lab 02 — Design Principles and Prompt Refinement](lab-02-design-principles-prompt-refinement/README.md) — Use Photoshop layout evidence to refine a generated visual against hierarchy, balance and contrast criteria.
+3. [Lab 03 — Composition and Style References](lab-03-composition-and-style-references/README.md) — Create a controlled Firefly comparison using composition and style references independently and together.
+4. [Lab 04 — Storyboard and Task Flow](lab-04-storyboard-and-task-flow/README.md) — Build a five-frame Firefly storyboard and a team task flow that communicates intent and ownership.
+5. [Lab 05 — Generative Fill: Directed Inpainting](lab-05-generative-fill/README.md) — Use a controlled selection and Generative Fill to add, replace and remove content non-destructively.
+6. [Lab 06 — Background Replacement and Harmonize](lab-06-background-and-harmonize/README.md) — Generate a new background, integrate a placed element and evaluate lighting, perspective and contact.
+7. [Lab 07 — Generative Expand for Channel Ratios](lab-07-generative-expand-channel-ratios/README.md) — Extend one master visual into square, landscape and portrait variants without losing hierarchy.
+8. [Lab 08 — Reference Image and Multi-Prompt Composition](lab-08-reference-image-composition/README.md) — Use a permitted reference image and staged selections to construct a coherent multi-element composition.
+9. [Lab 09 — Restoration, Critique and Colour Strategy](lab-09-restoration-critique-colour/README.md) — Restore a damaged image, evaluate invented detail and develop a reversible colour treatment.
+10. [Lab 10 — Wellness Campaign Capstone](lab-10-wellness-campaign-capstone/README.md) — Integrate the full workflow into an editable campaign visual, storyboard summary, critique and colour-delivery package.

@@ -7,9 +7,9 @@
 [![Labs](https://img.shields.io/badge/Labs-10-34d399?style=for-the-badge)](labs/README.md)
 [![License](https://img.shields.io/badge/License-Educational-fbbf24?style=for-the-badge)](#license)
 
-**A connected, hands-on course in Generative AI for Adobe Photoshop — progress through 10 practical labs from Get Started with Firefly and Generative AI in Photoshop to Build the End-to-End Workflow and Check Commercial Use and IP.**
+**A connected, hands-on course in Generative AI for Adobe Photoshop — progress through 10 practical labs from Prompt-to-Image Visual Brief to Wellness Campaign Capstone.**
 
-[📘 Course Page](https://www.tertiarycourses.com.sg/generative-ai-for-adobe-photoshop.html) · [🧪 Hands-On Labs](labs/README.md) · [📖 Learner Guide](<LG-Generative AI for Adobe Photoshop (C16).md>) · [🐛 Report Bug](https://github.com/tertiarycourses/C16---Generative-AI-for-Adobe-Photoshop/issues) · [💡 Request Feature](https://github.com/tertiarycourses/C16---Generative-AI-for-Adobe-Photoshop/issues)
+[📘 Course Page](https://www.tertiarycourses.com.sg/generative-ai-for-adobe-photoshop.html) · [🧪 Hands-On Labs](labs/README.md) · [📖 Learner Guide](<LG-Generative AI for Adobe Photoshop (C16).md>) · [🐛 Report Bug](https://github.com/tertiarycourses/C16-Generative-AI-for-Adobe-Photoshop/issues) · [💡 Request Feature](https://github.com/tertiarycourses/C16-Generative-AI-for-Adobe-Photoshop/issues)
 
 </div>
 
@@ -28,28 +28,28 @@ The 10 labs form one connected practical journey. Complete them in order so each
 
 | # | Activity | Outcome |
 |---:|----------|---------|
-| **1** | [Get Started with Firefly and Generative AI in Photoshop](labs/lab-01-get-started-with-firefly-and-generative-ai-in-photoshop.md) | Set up Photoshop's generative tools, run your first Generative Fill, and learn the generate–review–refine loop and generative layers that every later lab uses. |
-| **2** | [Write Effective Prompts for Image Generation](labs/lab-02-write-effective-prompts-for-image-generation.md) | Turn the supplied Solace reference pack into a strong, structured prompt that controls subject, style and detail, and save it as a reusable template. |
-| **3** | [Add and Remove Content with Generative Fill](labs/lab-03-add-and-remove-content-with-generative-fill.md) | Use Generative Fill to add supporting props to the serum photo and to remove a distracting object, all on non-destructive generative layers. |
-| **4** | [Extend Images with Generative Expand](labs/lab-04-extend-images-with-generative-expand.md) | Use Generative Expand to enlarge the canvas and re-frame the serum shot into a wide banner, letting Photoshop generate the new space to match. |
-| **5** | [One-Click Cleanup with the AI Remove Tool](labs/lab-05-one-click-cleanup-with-the-ai-remove-tool.md) | Use the AI Remove tool to erase small distractions and blemishes from the serum images in single strokes, and know when it beats Generative Fill. |
-| **6** | [Generate and Replace the Background](labs/lab-06-generate-and-replace-the-background.md) | Isolate the serum and use Generative Fill to replace its background with a completely new, described scene whose light and perspective match the bottle. |
-| **7** | [Text-to-Image Generation with Reference Images and Styles](labs/lab-07-text-to-image-generation-with-reference-images-and-styles.md) | Generate a brand-new lifestyle scene for the campaign from a text prompt, steering the look with a reference image and Firefly's style controls. |
-| **8** | [AI-Powered Portrait Retouching and Neural Filters](labs/lab-08-ai-powered-portrait-retouching-and-neural-filters.md) | Retouch the supplied model portrait with AI — generative retouching, the Remove tool and Neural Filters — naturally and ethically, keeping every edit non-destructive. |
-| **9** | [Combine Generative Layers with Masks and Blend Modes](labs/lab-09-combine-generative-layers-with-masks-and-blend-modes.md) | Composite the product, background, lifestyle scene and portrait into one image using layer masks and blend modes so it reads as a single photograph. |
-| **10** | [Build the End-to-End Workflow and Check Commercial Use and IP](labs/lab-10-build-the-end-to-end-workflow-and-check-commercial-use-and-i.md) | Finish the campaign key visual as one end-to-end layered file, export it in the formats a campaign needs, and run the commercial-use and intellectual-property checks that govern real work. |
+| **1** | [Prompt-to-Image Visual Brief](labs/lab-01-prompt-to-image-visual-brief/README.md) | Translate an audience brief into a controlled Firefly prompt set and selected visual direction. |
+| **2** | [Design Principles and Prompt Refinement](labs/lab-02-design-principles-prompt-refinement/README.md) | Use Photoshop layout evidence to refine a generated visual against hierarchy, balance and contrast criteria. |
+| **3** | [Composition and Style References](labs/lab-03-composition-and-style-references/README.md) | Create a controlled Firefly comparison using composition and style references independently and together. |
+| **4** | [Storyboard and Task Flow](labs/lab-04-storyboard-and-task-flow/README.md) | Build a five-frame Firefly storyboard and a team task flow that communicates intent and ownership. |
+| **5** | [Generative Fill: Directed Inpainting](labs/lab-05-generative-fill/README.md) | Use a controlled selection and Generative Fill to add, replace and remove content non-destructively. |
+| **6** | [Background Replacement and Harmonize](labs/lab-06-background-and-harmonize/README.md) | Generate a new background, integrate a placed element and evaluate lighting, perspective and contact. |
+| **7** | [Generative Expand for Channel Ratios](labs/lab-07-generative-expand-channel-ratios/README.md) | Extend one master visual into square, landscape and portrait variants without losing hierarchy. |
+| **8** | [Reference Image and Multi-Prompt Composition](labs/lab-08-reference-image-composition/README.md) | Use a permitted reference image and staged selections to construct a coherent multi-element composition. |
+| **9** | [Restoration, Critique and Colour Strategy](labs/lab-09-restoration-critique-colour/README.md) | Restore a damaged image, evaluate invented detail and develop a reversible colour treatment. |
+| **10** | [Wellness Campaign Capstone](labs/lab-10-wellness-campaign-capstone/README.md) | Integrate the full workflow into an editable campaign visual, storyboard summary, critique and colour-delivery package. |
 
 ---
 
 ## About
 
-This repository contains the complete lab and courseware package for **Generative AI for Adobe Photoshop** (**C16**) by Tertiary Courses / Tertiary Infotech. The practical activities build progressively from **Get Started with Firefly and Generative AI in Photoshop** to **Build the End-to-End Workflow and Check Commercial Use and IP**, with explicit checks that help learners verify each result before moving on.
+This repository contains the complete lab and courseware package for **Generative AI for Adobe Photoshop** (**C16**) by Tertiary Courses / Tertiary Infotech. The practical activities build progressively from **Prompt-to-Image Visual Brief** to **Wellness Campaign Capstone**, with explicit checks that help learners verify each result before moving on.
 
 ### What you'll learn
 
 - Complete **10 connected hands-on activities** and carry their outputs through one coherent learning journey.
 - Practise with **Adobe Photoshop · Adobe Firefly** and the supporting resources supplied in the repository.
-- Begin with **Get Started with Firefly and Generative AI in Photoshop** and finish with **Build the End-to-End Workflow and Check Commercial Use and IP**.
+- Begin with **Prompt-to-Image Visual Brief** and finish with **Wellness Campaign Capstone**.
 - Apply safe data handling, evidence checks and named human review before using AI-generated or automated outputs.
 
 > 📖 **Full walkthrough:** see the [Learner Guide](<LG-Generative AI for Adobe Photoshop (C16).md>) for the complete course narrative, and [labs/README.md](labs/README.md) for the lab index. Slides, the Learner Guide and the Lesson Plan are in [courseware/](courseware/).
@@ -88,7 +88,7 @@ FINISH
 ## Project Structure
 
 ```text
-C16---Generative-AI-for-Adobe-Photoshop/
+C16-Generative-AI-for-Adobe-Photoshop/
 ├── README.md
 ├── LG-Generative AI for Adobe Photoshop (C16).md
 │
@@ -109,7 +109,7 @@ C16---Generative-AI-for-Adobe-Photoshop/
 ### Prerequisites
 
 - The accounts and software required for **Adobe Photoshop · Adobe Firefly**. Follow the setup and access notes in each lab.
-- Review [`labs/tools.md`](labs/tools.md) before class for environment, account and safe-use requirements.
+- Review [`labs/README.md`](labs/README.md) before class for environment, account and safe-use requirements.
 - A modern web browser and Git for cloning the materials.
 - Synthetic or authorised data only. Do not place secrets, personal data or confidential material into an unapproved service.
 - A named human reviewer for facts, calculations, decisions and any externally released output.
@@ -117,8 +117,8 @@ C16---Generative-AI-for-Adobe-Photoshop/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tertiarycourses/C16---Generative-AI-for-Adobe-Photoshop.git
-cd C16---Generative-AI-for-Adobe-Photoshop
+git clone https://github.com/tertiarycourses/C16-Generative-AI-for-Adobe-Photoshop.git
+cd C16-Generative-AI-for-Adobe-Photoshop
 ```
 
 ### 2. Open the lab index
@@ -141,7 +141,7 @@ Contributions, corrections and improvements are welcome:
 4. Push the branch: `git push origin feature/my-improvement`.
 5. Open a **Pull Request**.
 
-Found a bug or have an idea? Open an [issue](https://github.com/tertiarycourses/C16---Generative-AI-for-Adobe-Photoshop/issues).
+Found a bug or have an idea? Open an [issue](https://github.com/tertiarycourses/C16-Generative-AI-for-Adobe-Photoshop/issues).
 
 ---
 

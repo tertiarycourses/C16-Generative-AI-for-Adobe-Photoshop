@@ -1,512 +1,739 @@
-# Generative AI for Adobe Photoshop (C16) — Learner Guide
+# Generative AI for Adobe Photoshop — Learner Guide
 
-**Course Code:** C16  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v1.0 · 27 July 2026**
+**Course code:** C16
+**Version:** v7 · 21 August 2026
 
-## Contents
+## Purpose
 
-- [Introduction](#introduction)
-- [Course Learning Outcomes](#course-learning-outcomes)
-- [Before You Start — Preparation](#before-you-start--preparation)
-- [Topic 01 — Generative Editing Essentials in Photoshop  (60%)](#topic-01--generative-editing-essentials-in-photoshop--60)
-  - [Lab 1 — Get Started with Firefly and Generative AI in Photoshop](#lab-1--get-started-with-firefly-and-generative-ai-in-photoshop)
-  - [Lab 2 — Write Effective Prompts for Image Generation](#lab-2--write-effective-prompts-for-image-generation)
-  - [Lab 3 — Add and Remove Content with Generative Fill](#lab-3--add-and-remove-content-with-generative-fill)
-  - [Lab 4 — Extend Images with Generative Expand](#lab-4--extend-images-with-generative-expand)
-  - [Lab 5 — One-Click Cleanup with the AI Remove Tool](#lab-5--one-click-cleanup-with-the-ai-remove-tool)
-  - [Lab 6 — Generate and Replace the Background](#lab-6--generate-and-replace-the-background)
-- [Topic 02 — Advanced Generative Workflows  (40%)](#topic-02--advanced-generative-workflows--40)
-  - [Lab 7 — Text-to-Image Generation with Reference Images and Styles](#lab-7--text-to-image-generation-with-reference-images-and-styles)
-  - [Lab 8 — AI-Powered Portrait Retouching and Neural Filters](#lab-8--ai-powered-portrait-retouching-and-neural-filters)
-  - [Lab 9 — Combine Generative Layers with Masks and Blend Modes](#lab-9--combine-generative-layers-with-masks-and-blend-modes)
-  - [Lab 10 — Build the End-to-End Workflow and Check Commercial Use and IP](#lab-10--build-the-end-to-end-workflow-and-check-commercial-use-and-ip)
-- [Wrap-Up](#wrap-up)
-- [Next Steps](#next-steps)
-- [Glossary](#glossary)
+This guide contains the detailed Photoshop procedures, evidence requirements and acceptance criteria that accompany the visual course slides. Preserve the supplied originals, work non-destructively, and keep the PSD plus verified export for every lab.
 
+## Learning outcomes
 
-## Introduction
+- Initiate visual communication through generative AI in Photoshop and Firefly.
+- Create storyboards in Firefly for visual narratives and task flows.
+- Propose enhancements through aesthetic analysis and advanced critique in Photoshop.
+- Formulate generative-AI colour strategies in Photoshop.
 
-This Learner Guide accompanies the Generative AI for Adobe Photoshop (C16) course, conducted by Tertiary Infotech Academy Pte Ltd. It carries the full detail of all 10 hands-on labs, in the order you will run them, together with the concepts each lab depends on.
+## Core professional workflow
 
-The labs build a single, connected deliverable — a brand campaign key visual for the Solace Radiance Serum, a fictional botanical skincare product from the studio Aster & Vale. You start in Lab 1 by getting oriented in Photoshop's generative tools, then in every lab you take the campaign one stage further — a strong prompt, added and removed content with Generative Fill, a Generative Expand banner, an AI Remove cleanup, a replaced background, a text-to-image lifestyle scene, an AI-retouched portrait, and finally a masked, blended composite you finish and check for commercial use. A reference pack and starter files are supplied; you may substitute your own non-confidential product wherever you prefer.
+1. Clarify purpose, audience, output channel and constraints.
+2. Verify source quality, ownership, licence, consent and permitted use.
+3. Set pixel dimensions, colour mode, bit depth and profile for the deliverable.
+4. Build with named layers, groups, masks, adjustment layers and Smart Objects.
+5. Experiment by changing one factor at a time and retaining a baseline.
+6. Evaluate at Fit and 100% views using composition, edge, tone, output and rights criteria.
+7. Export, reopen and verify the delivery file; retain the editable master and evidence.
 
+## Topic 1 — GenAI for Visual Communication
 
-## Course Learning Outcomes
+Turn an audience need into an intentional, rights-aware visual direction.
 
-- LO1: Describe how generative AI (Adobe Firefly) works inside Photoshop and navigate the generate–review–refine loop using the Contextual Task Bar and generative layers.
-- LO2: Write effective, structured prompts that control subject, style and detail for image generation in Photoshop.
-- LO3: Add and remove content non-destructively with Generative Fill and generative layers.
-- LO4: Extend an image beyond its original canvas with Generative Expand to re-compose and re-format it.
-- LO5: Clean up an image in one click with the AI Remove tool to erase distractions and blemishes.
-- LO6: Generate and replace a background to place a subject in a new, coherent scene.
-- LO7: Generate images from text using reference images and styles to control the look of a result.
-- LO8: Retouch portraits with AI — generative retouching and Neural Filters — naturally and ethically.
-- LO9: Combine generative layers with masks and blend modes to composite a polished final image.
-- LO10: Build an end-to-end generative design workflow and apply commercial-use and intellectual-property considerations to AI-generated visuals.
 
+### Human-led GenAI Creative Loop
 
-## Before You Start — Preparation
+A human defines the brief, directs generation, selects evidence and remains accountable for publication.
 
-**What you need**
+**Best used for:** Fast exploration where intent and judgement matter more than raw variation count.
 
-- A laptop (Windows or Mac) able to run the current release of Adobe Photoshop — a reasonably recent machine with 8 GB RAM minimum, 16 GB preferred.
-- Adobe Photoshop installed and updated to a version with Generative Fill, Generative Expand and the Remove tool (a free trial is available from adobe.com). The trainer will confirm the version at the start of the day.
-- An Adobe account signed in to Photoshop, with Firefly generative credits available — the labs stay within a modest number of generations, but check your credit balance before you start.
-- An internet connection — the generative features process in the cloud, so they need to be online.
-- The supplied Solace starter files and reference pack (a product photo, a portrait, a prompt sheet and style notes) — or a few photos and notes for your own non-confidential product to use instead.
+**Key controls:** Brief · prompt · variation · critique · edit · verify
 
-**Verify your setup**
+**Watch for:** Automating the decision as well as the production.
 
-Before Lab 1, confirm Photoshop opens, that you can see the Contextual Task Bar with a 'Generative Fill' button when you make a selection, and that you are signed in to your Adobe account with credits available. If anything is missing, tell the trainer.
+**Quality evidence:** A decision log connects the selected visual to audience, purpose and acceptance criteria.
 
-```bash
-Open Photoshop  ·  make a selection and confirm the Contextual Task Bar shows Generative Fill  ·  check Firefly credits in your Adobe account
-```
+### GenAI Image Use Cases and Boundaries
 
-**Conventions used in every lab**
+Generation, insertion, removal, expansion and translation solve different visual problems and carry different risks.
 
-- Placeholders such as <YOUR PRODUCT> or <YOUR REFERENCE IMAGE> are replaced with your own values.
-- Prompts to type into Photoshop's Generative Fill or generate box are shown in the 'Text to use' blocks — adapt them to your own product.
-- Every lab ends with a 'Test it' step — an explicit check that the result meets the brief before you move on.
-- Keep every file for one campaign in a single project folder, and save layered PSDs so your work stays non-destructive and editable.
+**Best used for:** Choosing an appropriate AI feature before opening a tool.
 
+**Key controls:** Task type · rights · sensitivity · required control · delivery channel
 
-## Topic 01 — Generative Editing Essentials in Photoshop  (60%)
+**Watch for:** Using generation where faithful documentation is required.
 
-Introduction to Adobe Firefly and generative AI in Photoshop · Writing effective prompts for image generation · Adding and removing content with Generative Fill · Extending images with Generative Expand · One-click cleanup with the AI Remove tool · Generating and replacing backgrounds
+**Quality evidence:** The chosen feature and boundary are justified against the brief.
 
-**Key concepts**
+### Prompt Anatomy
 
-- Adobe Firefly and generative AI in Photoshop — Firefly is Adobe's image-generation model, built into Photoshop so you can add, remove, extend and reimagine parts of a photo by describing them in words, right on the canvas, without leaving the app.
-- The Contextual Task Bar and the generate–review–refine loop — you make a selection, type a short prompt (or leave it blank), and Photoshop generates several variations; you review them, then regenerate or refine until one is right. This loop is the heart of every generative edit.
-- Generative layers are non-destructive — every generative result lands on its own generative layer above your photo, so the original pixels are never touched; you can hide, re-generate, mask or delete a result at any time without harming the image underneath.
-- Variations and generation credits — each generate produces three variations to choose from, and you can keep generating for more; generations use Firefly generative credits, so part of the craft is getting a strong result in fewer tries with a better selection and prompt.
-- Writing effective prompts — a good prompt names the subject, adds a few descriptive details and, where it helps, a style; you describe what you WANT to see in the selected area (not an instruction like 'remove this'), keep it concise, and iterate rather than over-loading one prompt.
-- Generative Fill to add and remove content — select an area and describe something to insert it seamlessly matched to the photo's light and perspective; select an object and generate with an empty prompt to remove it and fill the gap with a believable background.
-- Generative Expand — enlarge the canvas with the Crop tool and Photoshop generates new image to fill the added space, so you can re-frame a subject, straighten a crooked shot, or reformat a square photo into a wide banner or a tall story, all in one step.
-- The AI Remove tool — a brush-based one-click cleanup that erases distractions, blemishes, wires or stray objects and intelligently reconstructs what should be behind them, faster than a manual selection for small tidy-ups.
-- Generating and replacing backgrounds — select the subject, invert the selection (or use Select Subject / Remove Background), then use Generative Fill to place the subject into a completely new, described scene whose lighting and perspective match the subject.
+A useful prompt combines subject, action, setting, visual treatment, composition and constraints.
 
+**Best used for:** Creating a clear starting direction without over-prescribing every pixel.
 
-### Lab 1 — Get Started with Firefly and Generative AI in Photoshop
+**Key controls:** Subject · action · setting · medium · lighting · camera · exclusions
 
-Learning outcome: Set up Photoshop's generative tools, run your first Generative Fill, and learn the generate–review–refine loop and generative layers that every later lab uses..
+**Watch for:** Contradictory adjectives, vague subjects and accidental text instructions.
 
-Goal: This lab gets you comfortable with the tools before any real campaign work begins. You confirm you are signed in to Adobe with Firefly credits, open the supplied Solace serum photo, and make a first selection so the Contextual Task Bar appears. You run a simple Generative Fill, see the three variations land on their own generative layer, and cycle through them in the Properties panel. You learn that the edit is non-destructive — the original photo is untouched — and where the generate, regenerate and variation controls live. By the end you understand the describe -> generate -> review -> refine loop that is the heart of generative AI in Photoshop. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+**Quality evidence:** Prompt components can be traced to visible properties of the result.
 
-**What you'll build**
+### Prompt Iteration and Variation
 
-A first Generative Fill applied to the Solace serum photo, with its three variations reviewed on a non-destructive generative layer — plus a clear understanding of the Contextual Task Bar and the generate–review–refine loop.   (Tools: Adobe Photoshop, Adobe account / Firefly credits, the Contextual Task Bar, selection tools, Generative Fill, generative layers, the Properties panel variations.)
+Changing one prompt factor at a time makes cause and effect observable.
 
-**Step-by-step**
+**Best used for:** Converging from a broad direction to a defensible final candidate.
 
-1. Create a project folder on your machine called 'Solace-campaign' so every file you make today stays together. Copy the supplied starter files (labs/starter-files/) into it, and open 'solace-serum.jpg' in Photoshop.
-2. Confirm you are ready to generate: check you are signed in to your Adobe account (top-right avatar) and that you have Firefly generative credits. Save the file straight away as a layered Photoshop file: File > Save As > 'solace-hero.psd'.
-3. Make your first selection so the generative tools appear: pick the Rectangular Marquee tool and drag a small empty area beside the bottle. The Contextual Task Bar floats up near the selection with a 'Generative Fill' button — this bar is your main way to work.
-4. Click Generative Fill, type a simple first prompt, and click Generate. Watch Photoshop return a result matched to the photo's light.
+**Key controls:** Baseline · single-variable change · seed/variation · comparison notes
 
-   ```bash
-   a single small green eucalyptus sprig lying on the surface
-   ```
+**Watch for:** Changing model, prompt, style and composition simultaneously.
 
-5. Look at what happened in the Layers panel: the result is on its own 'Generative Layer' above your photo — the original pixels are untouched. Hide and show that layer to prove the edit is non-destructive.
-6. Review the variations: with the generative layer selected, open the Properties panel and step through the three variations Firefly returned. Pick the one you like best; if none is right, click 'Generate' again for three more.
-7. Delete this warm-up generative layer (you were only learning the interface), so your 'solace-hero.psd' is back to the clean serum photo, ready for real work in the next labs.
-8. Write one line, in your own words, describing the loop you just used (select -> Generative Fill -> prompt -> review variations -> refine) and where the variations appear. You rely on this loop in every later lab.
+**Quality evidence:** A contact sheet shows at least three labelled iterations and the selection reason.
 
-**Test it**
+### Visual Hierarchy and Emphasis
 
-You have run a Generative Fill on the Solace serum photo, seen the three variations on a non-destructive generative layer, stepped through them in the Properties panel, and confirmed the original photo was untouched when you deleted the layer — proving you understand the generate–review–refine loop.
+Scale, contrast, position, isolation and detail establish what viewers notice first.
 
-> **Note:** Full commands and screenshots are in labs/lab-01-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Best used for:** Campaign visuals that need a clear focal point and reading order.
 
----
+**Key controls:** Primary focal point · secondary cue · supporting detail · CTA space
 
+**Watch for:** Competing focal points or an empty area that cannot hold useful copy.
 
-### Lab 2 — Write Effective Prompts for Image Generation
+**Quality evidence:** A squint test and thumbnail view preserve the intended reading order.
 
-Learning outcome: Turn the supplied Solace reference pack into a strong, structured prompt that controls subject, style and detail, and save it as a reusable template..
+### Scale, Balance and Alignment
 
-Goal: A good generative result starts with a good prompt, not a lucky one. In this lab you read the supplied Solace reference pack and shape it into a structured prompt with clear parts: the subject, a few descriptive details, a style, lighting, and what to avoid. Working on a spare area of the canvas, you test small prompt changes to feel how each one moves the result — describing what you WANT to see rather than giving an instruction — and you learn to keep prompts concise and iterate rather than over-load them. You save your best wording as a reusable template you will reuse across the rest of the campaign. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+Relative size signals importance; visual mass and common edges stabilise the composition.
 
-**What you'll build**
+**Best used for:** Combining generated imagery with typography or brand elements.
 
-A structured Solace prompt (subject, details, style, lighting, negative) plus a reusable prompt template, saved in your project folder for use in Labs 3, 6 and 7.   (Tools: Generative Fill prompt box, the supplied Solace prompt sheet and style notes, a structured prompt template, style and lighting keywords, negative wording.)
+**Key controls:** Scale ratio · visual weight · grid · edge alignment · safe area
 
-**Step-by-step**
+**Watch for:** Centred-by-default layouts or tangencies that feel accidental.
 
-1. Open the supplied Solace reference pack (labs/reference-pack/): the prompt sheet and the style notes. Skim both so you know the product, its look, its colours and its mood before you write anything.
-2. In 'solace-hero.psd', select a spare area of the canvas to experiment in. Write a first prompt that names the subject and a couple of details only, and Generate.
+**Quality evidence:** Guides and a reduced-size review confirm balance across the frame.
 
-   ```bash
-   a few loose dried botanical leaves and small white flowers scattered on the surface
-   ```
+### Contrast, Repetition and Negative Space
 
-3. Add a style and a lighting cue and regenerate. Notice how the look shifts while the subject stays the same — this shows how style and lighting steer the result independently of the subject.
+Contrast separates roles, repetition creates coherence and negative space gives the message room to breathe.
 
-   ```bash
-   a few loose dried botanical leaves and small white flowers, soft natural daylight, calm minimalist premium skincare style, gentle shadows
-   ```
+**Best used for:** Social tiles, posters and storyboard frames that must scan quickly.
 
-4. Describe what you WANT, not an instruction. Compare a 'wanted' prompt with an instruction-style one and see which behaves better, then keep the 'wanted' style.
+**Key controls:** Value contrast · colour contrast · repeated motif · breathing room
 
-   ```bash
-   smooth softly-lit cream-coloured surface with subtle natural texture
-   ```
+**Watch for:** Decorative repetition that overwhelms the subject.
 
-5. Add a short negative cue for what to avoid, and regenerate. Keep the whole prompt concise — a few clear phrases beat one long paragraph.
+**Quality evidence:** Grayscale and thumbnail checks confirm separation and rhythm.
 
-   ```bash
-   soft natural daylight on a calm cream surface, minimalist premium skincare style — no text, no logos, no clutter, no harsh shadows
-   ```
+### Audience, Story and Responsible Provenance
 
-6. Run one or two more single-change edits to feel how each word matters — for example swap 'soft natural daylight' for 'warm golden-hour light', or 'minimalist' for 'lush botanical' — and note which direction suits Solace.
-7. Combine your best choices into one clean prompt. Then check it against the prompting rule: does it name the subject, add a few details, set a style and lighting, and say what to avoid? Fill any gap.
-8. Save two things in your Solace-campaign folder: your final Solace prompt, and a reusable template version with clearly marked slots — [SUBJECT], [DETAILS], [STYLE], [LIGHTING], [NEGATIVE] — that you can reuse for any future product. Delete the experiment layers so the hero file stays clean.
+A visual is credible when its message fits the audience and its source, prompts and edits remain explainable.
 
-**Test it**
+**Best used for:** Commercial, organisational and public-facing visual communication.
 
-You have a structured Solace prompt that explicitly controls subject, style, detail and lighting plus a negative cue, you have confirmed that describing what you WANT works better than an instruction, and you have saved a reusable prompt template with clearly marked slots.
+**Key controls:** Audience need · claim risk · asset rights · prompt log · Content Credentials
 
-> **Note:** Full commands and screenshots are in labs/lab-02-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Watch for:** Misleading realism, unlicensed references or unsupported claims.
 
----
+**Quality evidence:** A provenance note accompanies the editable master and export.
 
+### Lab 01 — Prompt-to-Image Visual Brief
 
-### Lab 3 — Add and Remove Content with Generative Fill
+**Scenario:** A reading campaign needs an imaginative hero image with clear copy space for a social tile.
 
-Learning outcome: Use Generative Fill to add supporting props to the serum photo and to remove a distracting object, all on non-destructive generative layers..
+**Objective:** Translate an audience brief into a controlled Firefly prompt set and selected visual direction.
 
-Goal: Generative Fill does two opposite jobs from the same tool: adding content and removing it. In this lab you first add a supporting prop to the Solace hero shot — a sprig of botanicals or a soft prop beside the bottle — by selecting an empty area and describing what to insert, matched to the photo's light and perspective. You then remove an unwanted element — a stray object, a reflection or a bit of clutter — by selecting it and generating with an empty prompt, so Photoshop fills the gap with believable background. You work on generative layers throughout, refining the selection and re-generating until each edit is seamless. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+#### Detailed procedure
 
-**What you'll build**
+1. Create a folder named `working` and preserve the supplied JPEGs unchanged.
+2. Write a one-sentence brief naming audience, message, channel, aspect ratio and required copy space.
+3. Draft a baseline prompt using subject, action, setting, visual treatment, composition and lighting.
+4. Generate a first set in Firefly and record the model and content type used.
+5. Change only one prompt factor for iteration two; label the changed factor.
+6. Change a different single factor for iteration three; retain all three prompt/result records.
+7. Compare the candidates for hierarchy, copy space, artefacts, audience fit and rights/provenance.
+8. Export the selected candidate as `lab01-selected.jpg` and save `lab01-decision-log.txt`.
 
-A Solace hero shot with a supporting prop added and a distraction removed by Generative Fill, each on its own generative layer, blended so the edits are invisible.   (Tools: Generative Fill (add and remove), selection tools, the Contextual Task Bar, generative layers, empty-prompt removal, variation review.)
+#### Evidence
 
-**Step-by-step**
+Three prompt/result records, selected JPEG and decision log identifying A1 exploration and A2 integration decisions.
 
-1. Open 'solace-hero.psd' from Lab 2. Decide on one supporting prop that fits the brand — for example a small eucalyptus sprig or a couple of dried flowers resting near the bottle — using your style notes to keep it on-brand.
-2. Select the empty area where the prop should sit (Lasso or Rectangular Marquee), click Generative Fill, paste your prompt, and Generate. Keep the selection a sensible size — roughly where you want the object to appear.
+#### Acceptance criteria
 
-   ```bash
-   a small fresh eucalyptus sprig resting on the surface next to the bottle, soft natural daylight, gentle shadow, premium minimalist skincare style
-   ```
+- At least three controlled prompt iterations are retained.
+- The selected JPEG has a clear focal point and intentional copy space.
+- The log records model, prompt, selection reason and provenance consideration.
 
-3. Review the three variations and pick the one whose light, scale and shadow best match the bottle. If the prop is too big, too bright or floating, adjust the selection or prompt and Generate again rather than accepting a weak result.
-4. Check the blend: zoom in on where the prop meets the surface and confirm the shadow direction and softness match the bottle's. If the edge looks pasted-on, re-generate or nudge the selection and try once more.
-5. Now remove a distraction. Find something you want gone — a stray speck, a dust mark, a reflection or a bit of background clutter — and select it snugly with the Lasso, leaving a small margin around it.
-6. Click Generative Fill, leave the prompt box EMPTY, and Generate. Photoshop removes the object and fills the gap with matching background. Review the variations and keep the cleanest fill.
-7. Rename your generative layers clearly ('prop - eucalyptus', 'remove - clutter') so the file stays organised for the composite later, and confirm each edit is still on its own layer above the untouched photo.
-8. Save 'solace-hero.psd'. You now have a cleaner, richer hero shot with one element added and one removed — both non-destructive and re-editable.
+Self-contained lab folder: `labs/lab-01-prompt-to-image-visual-brief/`
 
-**Test it**
+### Lab 02 — Design Principles and Prompt Refinement
 
-Your Solace hero shot has a supporting prop added by Generative Fill whose light, scale and shadow match the bottle, and a distraction removed by an empty-prompt Generative Fill that left believable background — both on their own clearly named generative layers above the untouched photo.
+**Scenario:** A creative studio wants a poster-ready yarn-art visual with one strong headline zone.
 
-> **Note:** Full commands and screenshots are in labs/lab-03-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Objective:** Use Photoshop layout evidence to refine a generated visual against hierarchy, balance and contrast criteria.
 
----
+#### Detailed procedure
 
+1. Open `structure-reference.psd` and immediately save `lab02-working.psd`.
+2. Inspect layer names, canvas ratio, dominant lines and negative-space zones.
+3. Create guides for a primary focal area, headline zone and safe margins.
+4. Write a Firefly prompt that preserves the structural intent while changing subject or material.
+5. Generate at least two candidates and place them as separate Smart Object layers.
+6. Add editable placeholder type to test hierarchy; do not embed essential copy in generated pixels.
+7. Compare scale, alignment, value contrast and breathing room at Fit and thumbnail views.
+8. Retain the stronger candidate, name all layers and export `lab02-poster.jpg`.
 
-### Lab 4 — Extend Images with Generative Expand
+#### Evidence
 
-Learning outcome: Use Generative Expand to enlarge the canvas and re-frame the serum shot into a wide banner, letting Photoshop generate the new space to match..
+Layered PSD, exported JPEG and a short comparison note covering the design principles.
 
-Goal: A square product shot is rarely the shape a campaign needs. In this lab you use Generative Expand to turn the Solace hero into a wide web banner. You select the Crop tool, drag the canvas out to a wide format, and let Photoshop generate the newly added space — matched to the existing scene — so the bottle sits comfortably off to one side with clean room for a headline. You also see how the same tool straightens a crooked shot and re-frames a subject. You keep the expansion on its own generative layer, review the variations, and refine the prompt so the new area is believable and leaves usable space. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+#### Acceptance criteria
 
-**What you'll build**
+- PSD contains guides, editable type and separate candidate layers.
+- The final hierarchy remains clear at thumbnail size.
+- Comparison note cites at least three explicit design criteria.
 
-A wide banner version of the Solace hero created with Generative Expand, with the new canvas space generated to match the scene and clear room reserved for a headline — kept non-destructive on a generative layer.   (Tools: Generative Expand, the Crop tool, canvas resizing, aspect-ratio presets, Generative Fill prompt for expansion, variation review.)
+Self-contained lab folder: `labs/lab-02-design-principles-prompt-refinement/`
 
-**Step-by-step**
+## Topic 2 — Firefly Storyboards and Reference Control
 
-1. Open 'solace-hero.psd' from Lab 3. Save a copy as 'solace-banner.psd' so you keep the square hero intact and work the wide format separately.
-2. Select the Crop tool. In the options bar, set a wide ratio (for example 16:9 or a custom wide banner) so you can drag the canvas out horizontally rather than cropping in.
-3. Drag the crop handles outward to the left and right so the bottle ends up off-centre (say, on the right third) with plenty of empty canvas on the other side for a headline. The added area shows as blank canvas.
-4. Before committing, make sure Generative Expand is enabled (the Contextual Task Bar / options show a Generative Expand or Fill option). You can add a short prompt to guide the new space, or leave it empty to simply continue the scene.
+Control composition and style, then organise variations into a communicable flow.
 
-   ```bash
-   continue the same calm cream surface and soft natural daylight, empty and uncluttered, room for text
-   ```
 
-5. Commit the crop. Photoshop generates the new canvas area on a generative layer and returns variations. Review them and keep the one where the new surface blends seamlessly with the original and the light is consistent.
-6. Check the seams: zoom along the joins between the original photo and the generated area and confirm there is no visible line, colour shift or repeated pattern. If there is, re-generate or expand in two smaller steps instead of one big one.
-7. Try the tool's other uses briefly on a duplicate: straighten a slightly rotated version (rotate, then Generative Expand fills the exposed corners) so you understand how it fixes crooked shots and re-frames subjects.
-8. Save 'solace-banner.psd'. You now have a wide, well-composed banner with generated space that reads as part of the original photo and leaves clean room for a headline.
+### Choosing a Firefly Image Model
 
-**Test it**
+Firefly models offer different balances of speed, realism, prompt interpretation and control.
 
-You have expanded the Solace hero into a wide banner with Generative Expand, the generated canvas space blends seamlessly with the original photo (consistent light, no visible seam or repeat), the bottle is composed off to one side, and clear space is reserved for a headline — all kept non-destructive.
+**Best used for:** Matching generation quality and latency to the storyboard purpose.
 
-> **Note:** Full commands and screenshots are in labs/lab-04-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Key controls:** Current model · output intent · speed · detail · available controls
 
----
+**Watch for:** Assuming the newest model behaves identically to an older one.
 
+**Quality evidence:** The selected model is recorded with a visible comparison or reason.
 
-### Lab 5 — One-Click Cleanup with the AI Remove Tool
+### Content Type and Visual Intensity
 
-Learning outcome: Use the AI Remove tool to erase small distractions and blemishes from the serum images in single strokes, and know when it beats Generative Fill..
+Content type steers photo/illustration behaviour while visual intensity adjusts how strongly styling affects the result.
 
-Goal: Not every cleanup needs a full selection. In this lab you use Photoshop's brush-based Remove tool for fast, one-stroke tidy-ups on the Solace images — a dust speck, a fingerprint on the glass, a scratch on the label, a distracting highlight or a small stray object. You brush over the distraction and Photoshop erases it and reconstructs what should be behind it, no marquee required. You learn to size the brush to the mark, work in small passes for a clean result, and judge when the Remove tool is quicker than a Generative Fill and when a full selection is the better choice. All edits stay non-destructive on their own layer. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+**Best used for:** Moving between documentary-looking and illustrative storyboard frames.
 
-**What you'll build**
+**Key controls:** Photo/art · auto mode · visual intensity · effects
 
-Clean Solace hero and banner images with small distractions and blemishes removed in single strokes by the AI Remove tool, reconstructed believably and kept on a non-destructive layer.   (Tools: The Remove tool (AI Remove), adjustable brush size, one-stroke removal and reconstruction, 'Sample all layers' option, a new blank layer for non-destructive edits.)
+**Watch for:** Treating intensity as a substitute for a clear prompt.
 
-**Step-by-step**
+**Quality evidence:** Two controlled variants demonstrate the effect of the setting.
 
-1. Open 'solace-hero.psd' from Lab 4 (or the banner). Add a new blank layer above the photo and, in the Remove tool options, enable 'Sample all layers' so your cleanups stay on that layer and the original is untouched.
-2. Select the Remove tool from the toolbar (grouped with the Spot Healing / retouch tools). Set a brush size just a little larger than the blemish you want gone — the tool works best sized to the mark, not the whole area.
-3. Find a small distraction on the glass or label — a dust speck, a fingerprint smudge or a tiny scratch — and brush a single stroke over it. Release, and Photoshop erases it and rebuilds the surface behind it.
-4. If the result isn't perfect, undo and try again with a slightly larger brush or a second short stroke. Small, deliberate passes give a cleaner reconstruction than one big scrub.
-5. Clean a distracting highlight or a stray object in the background the same way. For anything larger or more complex, note that a Generative Fill with a selection (Lab 3) gives you more control — use the right tool for the size of the job.
-6. Move to 'solace-banner.psd' and run the same quick cleanup across the wider frame, checking the generated-expansion area from Lab 4 for any small artefacts and removing them.
-7. Zoom to 100% and scan the whole image edge to edge, removing any last specks so the product reads as flawless and premium.
-8. Save both files. Your hero and banner are now clean and blemish-free, with every cleanup kept on its own non-destructive layer.
+### Colour, Lighting and Camera Controls
 
-**Test it**
+Secondary controls guide palette, lighting direction, field of view and depth cues.
 
-You have removed small distractions and blemishes from the Solace hero and banner with single strokes of the AI Remove tool, the areas behind them are reconstructed believably, you can explain when the Remove tool beats a Generative Fill, and all cleanups sit on a non-destructive layer above the untouched photo.
+**Best used for:** Keeping a sequence visually coherent without copying every frame.
 
-> **Note:** Full commands and screenshots are in labs/lab-05-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Key controls:** Colour/tone · lighting · camera angle · lens/depth cues
 
----
+**Watch for:** A lighting instruction that conflicts with the reference composition.
 
+**Quality evidence:** Frames share a documented palette and plausible light direction.
 
-### Lab 6 — Generate and Replace the Background
+### Composition Reference
 
-Learning outcome: Isolate the serum and use Generative Fill to replace its background with a completely new, described scene whose light and perspective match the bottle..
+A composition reference transfers spatial arrangement and structural relationships without duplicating the source pixels.
 
-Goal: Replacing a background is where generative editing really changes the look of a shot. In this lab you isolate the Solace bottle with a one-click Select Subject, invert the selection to target everything behind it, and use Generative Fill to describe a brand-new backdrop — a soft botanical setting, a calm stone ledge, or a gradient studio scene — that Photoshop generates to match the bottle's lighting and perspective. You refine the subject selection so edges look natural, review the variations, and re-generate until the product sits believably in its new world. The new background lands on its own generative layer, so the bottle and its scene stay separate and editable. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+**Best used for:** Maintaining camera position, pose or layout across storyboard alternatives.
 
-**What you'll build**
+**Key controls:** Reference strength · crop · silhouette · dominant lines · prompt
 
-A Solace hero shot placed into a completely new, described background generated to match the bottle's light and perspective, with a clean subject edge and the background kept on its own generative layer.   (Tools: Select Subject, Select > Inverse, Select and Mask / refine edge, Generative Fill for backgrounds, the reusable prompt from Lab 2, variation review.)
+**Watch for:** Using a reference without rights or expecting identity fidelity.
 
-**Step-by-step**
+**Quality evidence:** Overlay or side-by-side evidence confirms structural similarity.
 
-1. Open 'solace-hero.psd' from Lab 5. Select the layer with the bottle and choose Select > Subject (or the Contextual Task Bar's 'Select Subject') to isolate the serum in one click.
-2. Refine the selection so the edge is clean: use Select and Mask to smooth and slightly feather the edge, especially around the dropper cap and the glass, so the bottle won't look cut out against the new scene.
-3. Invert the selection (Select > Inverse) so everything EXCEPT the bottle is now selected — this is the area you will replace.
-4. Click Generative Fill and describe the new background, reusing and adapting your Solace prompt from Lab 2. Generate.
+### Style Reference
 
-   ```bash
-   a calm minimalist background of soft botanical shadows on a warm cream wall, gentle natural daylight from the left, shallow depth of field, premium skincare style
-   ```
+A style reference guides colour, texture, lighting and rendering character while the prompt controls subject matter.
 
-5. Review the three variations and choose the one whose light direction and warmth match the bottle. If the background light fights the product (shadows on the wrong side), regenerate with the light direction stated explicitly.
-6. Check that the bottle sits in the scene, not on top of it: confirm the ground shadow and the background depth feel consistent. Add a small contact shadow with a low Generative Fill selection or a soft brush if the bottle looks like it is floating.
-7. Generate one alternative background for the client to choose from (for example a stone-ledge scene) on a second generative layer, and keep both hidden / shown so you can compare — a real deliverable often offers options.
+**Best used for:** Unifying multiple scenes under one art direction.
 
-   ```bash
-   a smooth pale stone ledge with a soft out-of-focus green garden behind, warm natural daylight from the left, calm premium skincare style
-   ```
+**Key controls:** Reference strength · visual intensity · effects · prompt specificity
 
-8. Save 'solace-hero.psd'. Your serum now sits in a completely new, coherent scene, with the background on its own generative layer and the bottle preserved and editable.
+**Watch for:** Combining style and composition changes without a baseline.
 
-**Test it**
+**Quality evidence:** A contact sheet shows consistent treatment across different subjects.
 
-You have isolated the Solace bottle with a clean, refined edge and replaced its background using Generative Fill with a described scene whose light direction and perspective match the bottle, the product sits believably in the scene (consistent contact shadow), and the new background is on its own generative layer with an alternative option kept alongside.
+### Storyboard Architecture
 
-> **Note:** Full commands and screenshots are in labs/lab-06-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+A storyboard converts a narrative into beats with a purpose, frame, transition and evidence for each beat.
 
----
+**Best used for:** Explaining an experience, campaign sequence or task journey.
 
+**Key controls:** Opening · context · action · transformation · outcome · CTA
 
-## Topic 02 — Advanced Generative Workflows  (40%)
+**Watch for:** A gallery of attractive images with no causal sequence.
 
-Text-to-image generation with reference images and styles · AI-powered portrait retouching and Neural Filters · Combining generative layers with masks and blend modes · Building end-to-end generative design workflows · Commercial use and intellectual-property considerations
+**Quality evidence:** Every frame has a caption, purpose and transition note.
 
-**Key concepts**
+### Task Flow for Team Collaboration
 
-- Text-to-image generation — beyond editing an existing photo, you can generate a brand-new image from a text prompt (in Photoshop's generate workflow or in the Firefly web app) to create concepts, backgrounds and lifestyle scenes from nothing but a description.
-- Reference images and style controls — you steer a generated image's look by supplying a reference image (to match composition or subject) and by choosing a style, content type (photo vs art), effects, colour and lighting, so results stay on-brand instead of random.
-- AI-powered portrait retouching — generative retouching and the Remove/Fill tools clean skin, remove flyaway hair and stray objects and even adjust eyes or expression on a portrait, quickly and non-destructively, while keeping the person looking natural.
-- Neural Filters — a panel of AI-powered filters (Skin Smoothing, Smart Portrait, Colorize, Style Transfer, Landscape Mixer and more) that apply sophisticated, model-driven edits from simple sliders, each output kept on its own layer.
-- Masks with generative layers — a layer mask hides or reveals part of a generative layer with black-and-white painting, so you blend a generated element precisely into the scene and control exactly where it shows.
-- Blend modes — a blend mode changes how a generative layer's pixels combine with the layers below (Multiply, Screen, Overlay, Soft Light and others), letting you merge light, shadow, colour and texture so a composite reads as one photograph.
-- End-to-end generative design workflow — real work chains these tools together: generate or edit the subject, expand and re-frame, replace the background, retouch, then composite generative layers with masks and blend modes into one finished, layered deliverable you can revise.
-- Commercial use and licensing — Firefly is designed to be commercially safe (trained on licensed and public-domain content), but you must still check Adobe's current generative-AI usage terms, any credit limits, and the rights to every non-Firefly image, model or brand you bring in.
-- Intellectual property and responsible use — you own your prompts and your edits, but you must respect other people's copyright, trademarks and likeness; disclose AI use where required, avoid deceptive edits, and note that Firefly can attach Content Credentials (provenance metadata) to a result.
+A task flow assigns inputs, decisions, hand-offs and review gates so visual work can be repeated by a team.
 
+**Best used for:** Moving from ideation to approved, editable and channel-ready output.
 
-### Lab 7 — Text-to-Image Generation with Reference Images and Styles
+**Key controls:** Owner · input · action · decision · output · reviewer
 
-Learning outcome: Generate a brand-new lifestyle scene for the campaign from a text prompt, steering the look with a reference image and Firefly's style controls..
+**Watch for:** Unowned approval steps or ambiguous version names.
 
-Goal: Editing an existing photo is only half of generative AI; you can also create a whole new image from nothing but a description. In this lab you use text-to-image — in Photoshop's generate workflow or the Firefly web app — to produce a lifestyle scene for the Solace campaign (a calm bathroom shelf, a spa-like setting, a botanical flat-lay). You steer the result with your Lab 2 prompt, a reference image to guide composition and subject, and Firefly's style controls — content type (photo vs art), a visual style, effects, colour and lighting — so the scene stays on-brand rather than random. You generate several options and bring the best into your project. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+**Quality evidence:** A flow diagram identifies ownership and acceptance at each gate.
 
-**What you'll build**
+### Text Effects and Template Ideation
 
-A text-to-image lifestyle scene for the Solace campaign, generated from your prompt and steered by a reference image and Firefly style controls, brought into the project as a new layer.   (Tools: Text-to-image (Photoshop generate / Firefly web app), reference image / composition guide, style and content-type controls, effects, colour and lighting settings, generate and download.)
+Text effects and template-oriented generation can establish art direction, but final copy remains editable in the design tool.
 
-**Step-by-step**
+**Best used for:** Exploring campaign style, title treatment and modular layouts.
 
-1. Open the reference pack's style notes and your reusable prompt from Lab 2. Decide on the lifestyle scene you want for the campaign — for example a calm bathroom shelf, a spa setting, or a botanical flat-lay that suits the serum.
-2. Start a text-to-image generation (in Photoshop's generate box, or at the Firefly web app). Enter a scene prompt based on your Solace prompt and Generate a first set.
+**Key controls:** Short display phrase · material/style · legibility · editability
 
-   ```bash
-   a calm spa-like bathroom shelf with soft towels, eucalyptus and a warm cream wall, soft natural daylight from the left, minimalist premium skincare lifestyle scene, empty space on the right for a product
-   ```
+**Watch for:** Embedding essential long-form copy inside generated pixels.
 
-3. Add a reference image to steer composition or subject: upload the supplied reference (or your own authorised image) so the result follows a layout you want, and regenerate. Compare how much the reference changes the output.
-4. Set the style controls: choose the Photo content type (not Art), pick a matching visual style, and adjust colour and lighting so the scene reads warm, calm and premium. Regenerate and watch the mood shift with the settings.
-5. Generate several variations and shortlist two or three scenes that suit Solace and leave clear space for the product. Keep the light direction consistent with your hero bottle (light from the left) so they will composite together later.
-6. Bring your chosen scene into the project: place it into your Solace PSD as a new layer (File > Place Embedded, or copy from the Firefly result), naming the layer 'lifestyle-scene'. Keep it non-destructive.
-7. Note the provenance: if you used the Firefly web app, keep the downloaded file and its Content Credentials, and record which reference image and style settings produced the scene, so the result is documented for the IP check in Lab 10.
-8. Save your PSD. You now have an on-brand, AI-generated lifestyle scene, controlled by a reference image and style settings, ready to host the product in the composite.
+**Quality evidence:** Final deliverable uses editable type and passes a legibility check.
 
-**Test it**
+### Lab 03 — Composition and Style References
 
-You have generated an on-brand lifestyle scene for the Solace campaign with text-to-image, demonstrably steered it with a reference image and Firefly's style, colour and lighting controls, chosen a scene with space for the product and consistent light direction, and placed it into your project as a named, non-destructive layer.
+**Scenario:** A wellness campaign needs varied subjects that retain one composition and art direction.
 
-> **Note:** Full commands and screenshots are in labs/lab-07-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Objective:** Create a controlled Firefly comparison using composition and style references independently and together.
 
----
+#### Detailed procedure
 
+1. Confirm the supplied references are used only for this authorised learning activity.
+2. Write one subject prompt and generate a baseline without references.
+3. Add `composition-reference.jpg`, select a moderate strength and generate a second set.
+4. Remove the composition reference, add `style-reference.jpg` and generate a third set.
+5. Apply both references and generate a fourth set without changing the core subject prompt.
+6. Export one candidate from each condition using descriptive filenames.
+7. Create a four-up comparison canvas in Photoshop with editable labels.
+8. Record which setting best controlled structure, treatment and campaign consistency.
 
-### Lab 8 — AI-Powered Portrait Retouching and Neural Filters
+#### Evidence
 
-Learning outcome: Retouch the supplied model portrait with AI — generative retouching, the Remove tool and Neural Filters — naturally and ethically, keeping every edit non-destructive..
+Four labelled JPEG conditions, comparison PSD and a reference-control decision note.
 
-Goal: A campaign often features a person, and AI makes portrait retouching fast — but it must stay natural and ethical. In this lab you retouch the supplied Solace model portrait (a person holding or applying the serum). You clean skin and remove distractions with generative retouching and the Remove tool, then use Neural Filters — Skin Smoothing for gentle, believable skin, and optionally Smart Portrait or Colorize — driven by simple sliders, each output kept on its own layer. You retouch with restraint so the person still looks like themselves, and you note the consent and likeness responsibilities that come with editing a real face. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+#### Acceptance criteria
 
-**What you'll build**
+- Baseline, composition-only, style-only and combined results are present.
+- Only the intended reference condition changes between comparisons.
+- Decision note distinguishes structural and stylistic influence.
 
-A naturally retouched Solace model portrait: clean skin and removed distractions via generative retouching and the Remove tool, plus a subtle Neural Filters pass — all non-destructive and kept believable.   (Tools: Generative retouching, the Remove tool, Neural Filters (Skin Smoothing, Smart Portrait, Colorize), sliders, per-filter output layers, non-destructive retouching.)
+Self-contained lab folder: `labs/lab-03-composition-and-style-references/`
 
-**Step-by-step**
+### Lab 04 — Storyboard and Task Flow
 
-1. Open the supplied 'solace-model.jpg' portrait (or your own photo of a person who has consented to being edited). Save it as 'solace-model.psd' and duplicate the background layer so the original stays intact.
-2. Remove obvious distractions first: use the Remove tool (Lab 5) to brush away flyaway hairs, a stray blemish, or a distracting object in the background, on a new layer with 'Sample all layers' on.
-3. Clean any larger issue with generative retouching: select a distraction (a logo on clothing, an object) and use Generative Fill with an empty prompt to remove it, or describe a clean replacement, keeping it on its own layer.
-4. Open Filters > Neural Filters and enable Skin Smoothing. Use the Blur and Smoothness sliders with restraint — aim for healthy, even skin that still shows natural texture, not a plastic look. Output it to a new layer.
-5. Optionally try Smart Portrait or Colorize on a duplicate to see what they do (adjust gaze, expression, or colourise) — but for a premium skincare brand, keep the final look subtle and realistic. Discard any edit that looks artificial.
-6. Judge the retouch honestly: toggle the before/after and confirm the person still looks like themselves. Over-smoothed skin or altered features undermine both trust and the brand — dial edits back until they read as natural.
-7. Record the ethics: note that this is a real (or fictional-consented) person, that you have the right to edit and use their image, and that you have not made deceptive changes to their body or identity — you will include this in the IP check in Lab 10.
-8. Save 'solace-model.psd'. You have a clean, naturally retouched portrait on non-destructive layers, ready to composite into the campaign.
+**Scenario:** A fictional Wellness Week Singapore 2026 campaign needs a short visual journey from stress to restorative action.
 
-**Test it**
+**Objective:** Build a five-frame Firefly storyboard and a team task flow that communicates intent and ownership.
 
-You have retouched the Solace model portrait with the Remove tool, generative retouching and a subtle Skin Smoothing Neural Filter, every edit is on its own non-destructive layer, the person still looks natural and like themselves, and you have recorded the consent and likeness responsibilities for the portrait.
+#### Detailed procedure
 
-> **Note:** Full commands and screenshots are in labs/lab-08-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+1. Save the PSD as `lab04-storyboard.psd` and inspect its editable frame structure.
+2. Write five beats: opening, context, action, transformation and outcome/CTA.
+3. Define a shared palette, lighting direction, aspect ratio and style reference for the sequence.
+4. Generate one candidate for each beat, keeping the documented shared controls constant.
+5. Place each candidate in its own Smart Object frame and add editable captions.
+6. Create a task-flow panel naming owner, input, action, review gate and output for generation, Photoshop edit and approval.
+7. Review continuity of subject, palette, lighting and causal sequence with a peer.
+8. Revise one frame, record the reason and export `lab04-storyboard.jpg`.
 
----
+#### Evidence
 
+Five-frame layered storyboard PSD, exported JPEG, task-flow panel and peer-review note.
 
-### Lab 9 — Combine Generative Layers with Masks and Blend Modes
+#### Acceptance criteria
 
-Learning outcome: Composite the product, background, lifestyle scene and portrait into one image using layer masks and blend modes so it reads as a single photograph..
+- Every frame has a purpose and transition caption.
+- Task flow includes ownership and an approval gate.
+- At least one revision is traceable to stakeholder or peer feedback.
 
-Goal: This is where the pieces become one campaign visual. In this lab you assemble the generative layers you have built — the clean hero bottle, its background or lifestyle scene, supporting props, and elements from the retouched portrait — into a single composite. You use layer masks to blend each element in precisely, painting black to hide and white to reveal, so edges disappear. You use blend modes — Multiply for shadows, Screen or Overlay for light and glow, Soft Light for tone — to merge light, colour and texture so nothing looks pasted on. You match colour and add contact shadows so the whole image reads as one photograph. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+Self-contained lab folder: `labs/lab-04-storyboard-and-task-flow/`
 
-**What you'll build**
+## Topic 3 — Photoshop Generative Editing and Critique
 
-A single composited Solace key visual assembling the product, background/lifestyle scene and supporting elements, blended with layer masks and blend modes and colour-matched so it reads as one photograph.   (Tools: Layer masks, brush painting on masks, blend modes (Multiply, Screen, Overlay, Soft Light), grouping and ordering layers, adjustment layers for colour matching, contact shadows.)
+Use selections and generative features to build, evaluate and improve editable composites.
 
-**Step-by-step**
 
-1. Open your Solace PSD and bring the pieces together in one document: the hero bottle, the chosen background or lifestyle scene, your props, and any element from the retouched portrait. Order the layers back-to-front (scene at the bottom, product on top).
-2. Add a layer mask to the product layer and paint with a soft black brush to hide its old edge/background so it sits cleanly on the new scene. Paint white to bring back anything you hid by mistake — masks are fully reversible.
-3. Blend a shadow with a blend mode: put the bottle's contact shadow on its own layer and set it to Multiply so it darkens the surface beneath naturally instead of covering it with grey.
-4. Add glow or highlight where light hits the glass or a botanical: on a new layer set to Screen or Overlay, paint a soft warm light, then lower the opacity so it reads as real light, not a sticker.
-5. Match colour across the composite: add a Curves or Color Balance adjustment layer (clipped where needed) so the product, scene and portrait element share the same warmth and contrast — mismatched colour is what breaks a composite.
-6. Refine every seam: zoom in and tidy each mask edge with a small soft brush, and use a Soft Light layer to unify texture and tone across the join between generated and photographed areas.
-7. Group the finished layers ('PRODUCT', 'SCENE', 'LIGHT', 'COLOR') so the file is tidy and a client revision is easy. Toggle groups on and off to confirm each contributes and nothing is redundant.
-8. Save the layered PSD. Step back and check the whole image reads as one photograph — consistent light direction, matched colour, believable shadows — with no element looking pasted on.
+### Photoshop Generative AI Feature Map
 
-**Test it**
+Photoshop connects Generative Fill, Expand, Background, Harmonize and reference-based generation to selections and layers.
 
-You have composited the Solace product, background/scene and supporting elements into one image using layer masks (painting black/white to blend) and blend modes (Multiply for shadow, Screen/Overlay for light, Soft Light for tone), colour-matched with an adjustment layer, and the result reads as a single photograph with consistent light and believable shadows.
+**Best used for:** Selecting the smallest feature that solves the editing problem.
 
-> **Note:** Full commands and screenshots are in labs/lab-09-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Key controls:** Selection · prompt/reference · model · variations · generated layer
 
----
+**Watch for:** Flattening before review or confusing destructive and generated edits.
 
+**Quality evidence:** The Layers panel shows the generated content and editable source structure.
 
-### Lab 10 — Build the End-to-End Workflow and Check Commercial Use and IP
+### Selection as a Generative Instruction
 
-Learning outcome: Finish the campaign key visual as one end-to-end layered file, export it in the formats a campaign needs, and run the commercial-use and intellectual-property checks that govern real work..
+Selection geometry defines where change may occur and gives the model contextual pixels at its boundary.
 
-Goal: The final lab turns your work into a real deliverable and makes it safe to ship. You review the whole end-to-end workflow — prompt, fill, expand, remove, background, text-to-image, retouch, composite — as one connected chain, tidy the layered file, and add the campaign headline space you reserved. You export the key visual in the formats a campaign needs (a wide banner, a square social post and a tall story), reusing Generative Expand to reformat. Then you run the commercial-use and IP check: Adobe's current generative-AI usage terms, credit limits, the rights to every non-Firefly image, person and brand, Content Credentials, and honest disclosure — so the visual is fit to publish. BUILDING BLOCK — what you create in this lab becomes part of your Solace Radiance Serum campaign key visual, the connected project you assemble across all 10 labs.
+**Best used for:** Precise insertion, replacement and local repair.
 
-**What you'll build**
+**Key controls:** Selection edge · feather · context margin · mask · target layer
 
-A finished, exported Solace campaign key visual in three formats from one end-to-end layered PSD, accompanied by a completed commercial-use and IP checklist covering usage terms, rights, Content Credentials and disclosure.   (Tools: Layered PSD finishing, Generative Expand for reformatting, Export As / Save a Copy (PNG/JPG), Content Credentials, Adobe generative-AI usage terms, an IP and rights checklist.)
+**Watch for:** Selections that clip shadows or include protected details.
 
-**Step-by-step**
+**Quality evidence:** Selection/mask evidence and a 100% edge inspection are retained.
 
-1. Open your composited Solace PSD from Lab 9. Walk the layer stack top to bottom and confirm the end-to-end chain is all there and non-destructive: prompt-driven fills, the expand, the cleanups, the background, the lifestyle scene, the retouch, and the blended composite.
-2. Finish the key visual: add the headline space you reserved earlier (leave room for text rather than baking in final copy), tidy layer names and groups, and flatten a COPY only — never your master PSD — for export.
-3. Export the primary wide banner: File > Export > Export As (or Save a Copy) to a high-quality JPG/PNG at the banner size. Keep the layered master PSD untouched alongside it.
-4. Reformat for other placements with Generative Expand (Lab 4): from the master, produce a square social post and a tall story by expanding/recomposing the canvas and re-exporting each — one visual, three formats.
-5. Turn on Content Credentials for your exports (Firefly/Photoshop's Content Credentials option) so the files carry provenance metadata recording that generative AI was used — a mark of responsible, transparent work.
-6. Run the commercial-use check: confirm the generated content came from Firefly (designed for commercial safety), review Adobe's CURRENT generative-AI usage terms and your generative-credit limits, and confirm nothing blocks using the visual to promote the product.
-7. Run the IP and rights check against a short checklist: every non-Firefly image is one you own or are licensed to use; the model gave consent for this use of their likeness; no third-party logo, artwork or trademark appears without permission; and you have made no deceptive edit. Note where AI use should be disclosed.
-8. Save everything into your Solace-campaign folder — the layered master PSD, the three exported formats and the completed IP checklist. This is your finished, publishable deliverable, built end to end and cleared for use.
+### Generative Fill
 
-**Test it**
+Generative Fill creates non-destructive variations on a new generated layer inside the selected region.
 
-You have finished the Solace campaign key visual as one end-to-end, non-destructive layered PSD, exported it in three campaign formats using Generative Expand to reformat, attached Content Credentials, and completed a commercial-use and IP checklist (Adobe usage terms and credits, rights to every image/person/brand, consent, no deceptive edits, disclosure) — so the visual is fit to publish.
+**Best used for:** Adding, replacing or removing local content with contextual blending.
 
-> **Note:** Full commands and screenshots are in labs/lab-10-*.md. Use only images, people and brands you are authorised to use. Do not upload a real company's product photo, a copyrighted image, or a photo of a person without their consent, and check Adobe's current generative-AI usage terms before you publish or sell a result. Use the supplied Solace starter files rather than confidential material, and note that generative features process your images in the cloud under Adobe's terms of service.
+**Key controls:** Prompt or blank prompt · model · variation · generated layer
 
----
+**Watch for:** Anatomy errors, repeated textures and lighting mismatch.
 
+**Quality evidence:** Before/after, selected variation and layered PSD prove the decision.
 
-## Wrap-Up
+### Generative Expand
 
-You have taken one hero product — the Solace Radiance Serum — through the entire generative-AI workflow in Photoshop in a single day, from a plain product photo and a clear prompt to a finished, layered brand campaign key visual, and checked it for commercial use and IP.
+Generative Expand extends the canvas and synthesises contextual pixels beyond the original frame.
 
-**What you built**
+**Best used for:** Reframing a master visual for landscape, portrait and square channels.
 
-- A strong, reusable prompt that controls subject, style and detail for generative edits and image generation.
-- A clean hero shot with content added and removed by Generative Fill and a one-click AI Remove cleanup.
-- A wide banner produced with Generative Expand, and a completely replaced, coherent background.
-- A text-to-image lifestyle scene steered by a reference image and style controls, and an AI-retouched portrait.
-- A masked, blended composite assembled into one end-to-end layered campaign key visual, checked for commercial use and IP.
+**Key controls:** Crop ratio · anchor · prompt/blank · safe area · variation
 
-**What to do next**
+**Watch for:** Extending low-quality edges or moving the focal point unintentionally.
 
-- Rebuild the campaign for a real, non-confidential product of your own using the same prompt template and workflow.
-- Export the key visual in the formats a real campaign needs — a wide web banner, a square social post and a tall story — reusing your Generative Expand skills.
-- Keep your prompt sheet and layered PSD as reusable templates so future visuals follow the same clean, non-destructive workflow.
-- Always check Adobe's generative-AI usage terms and the rights to every image, person and brand, and disclose AI assistance where appropriate before you publish or sell.
+**Quality evidence:** Three channel crops preserve subject integrity and useful copy space.
 
----
+### Generate Background and Harmonize
 
+Background generation replaces the environment; Harmonize adjusts a placed subject to the surrounding tone, colour and light.
 
-## Next Steps
+**Best used for:** Fast composites that still require realistic integration.
 
-- First pass: complete every lab yourself, following the steps and verifying each 'Test it' check.
-- Second pass: rebuild the key visual from your prompt and starter photo alone, compositing it without the step-by-step.
-- Apply the workflow to a real, non-confidential product or brand of your own.
-- Review each lab's detailed steps in this guide and re-create the campaign in your own Photoshop.
+**Key controls:** Subject isolation · background prompt · scale · contact shadow · Harmonize
 
+**Watch for:** Floating subjects, incorrect perspective or inconsistent light direction.
 
-## Glossary
+**Quality evidence:** Layered before/after and zoomed edge/shadow evidence pass review.
 
-- **Generative AI** — AI that creates new content — here, images — from a text prompt or an existing image, rather than only filtering pixels that already exist.
-- **Adobe Firefly** — Adobe's generative image model, built into Photoshop, that powers Generative Fill, Generative Expand, background generation and text-to-image.
-- **Generative Fill** — A Photoshop feature that generates content into a selected area from a text prompt — to add an object, or (with an empty prompt) to remove one and fill the gap.
-- **Generative Expand** — Enlarging the canvas with the Crop tool so Photoshop generates new image to fill the added space, used to re-frame, straighten or reformat a photo.
-- **Generative layer** — The special layer each generative result lands on, keeping the edit non-destructive and separately editable, re-generatable and maskable.
-- **Contextual Task Bar** — The floating bar that appears near your selection offering the right next action — such as Generative Fill — so you work directly on the canvas.
-- **Variations** — The set of results (three at a time) Photoshop returns for each generation, shown in the Properties panel so you can pick the best or generate more.
-- **Generative credits** — Firefly's usage allowance; each generation consumes credits, so a good selection and prompt that get a result in fewer tries are part of the craft.
-- **Prompt** — The text you type to describe what you want generated; describe what you WANT to see in the area, concisely, and iterate rather than over-loading one prompt.
-- **Reference image** — An image you supply to steer a text-to-image result toward a particular composition, subject or look, instead of relying on words alone.
-- **Style / content type** — Firefly controls that set whether a result is a photo or art and apply a visual style, effects, colour and lighting to keep it on-brand.
-- **Remove tool (AI Remove)** — A brush-based Photoshop tool that erases a distraction or blemish in a stroke and reconstructs what should be behind it.
-- **Select Subject / Remove Background** — One-click selection commands that isolate the main subject (or delete the background), used before replacing a background generatively.
-- **Neural Filters** — A panel of AI-powered filters (Skin Smoothing, Smart Portrait, Colorize, Style Transfer, Landscape Mixer and more) driven by simple sliders, each output on its own layer.
-- **Portrait retouching** — Cleaning and enhancing a photo of a person — skin, stray hair, distractions, eyes or expression — quickly and non-destructively while keeping them natural.
-- **Layer mask** — A black-and-white attachment to a layer that hides or reveals part of it as you paint, used to blend a generative layer precisely into the scene.
-- **Blend mode** — A setting that changes how a layer's pixels combine with those below (Multiply, Screen, Overlay, Soft Light and others) to merge light, colour and texture.
-- **Composite** — A finished image assembled from several layers — here, generative layers blended with masks and blend modes so it reads as one photograph.
-- **Non-destructive editing** — Working so the original pixels are never overwritten — using generative layers, masks and adjustment layers — so every change stays reversible.
-- **PSD** — Photoshop's native layered file format, which preserves generative layers, masks and blend modes so the deliverable stays fully editable.
-- **Content Credentials** — Provenance metadata Firefly can attach to a result, recording that AI was used and how, to support transparent and responsible use.
-- **Commercial use** — Using an image to promote or sell — which requires that Firefly's usage terms and the rights to every image, person and brand in it are all cleared.
-- **Intellectual property (IP)** — The rights — copyright, trademark and likeness — that govern who may use an image, a design, a logo or a person's face, and that you must respect.
+### Reference Image in Generative Fill
+
+A reference image provides additional visual guidance while the prompt and selection define the requested change.
+
+**Best used for:** Improving consistency of an object, material or visual direction.
+
+**Key controls:** Reference asset · rights · prompt · selection · variation
+
+**Watch for:** Expecting an exact copy or using a reference without permission.
+
+**Quality evidence:** The reference, selected output and rights record are stored together.
+
+### Inpainting and Outpainting
+
+Inpainting changes content inside a boundary; outpainting synthesises beyond an existing boundary.
+
+**Best used for:** Choosing between local repair and frame extension.
+
+**Key controls:** Protected area · context overlap · seam location · content continuity
+
+**Watch for:** Visible seams, repeated objects or altered protected content.
+
+**Quality evidence:** A difference review confirms only the intended region changed.
+
+### Aesthetic Critique and Golden-ratio Heuristics
+
+Critique separates description, interpretation, evaluation and recommendation; compositional heuristics are prompts for judgement, not guarantees.
+
+**Best used for:** Explaining why a visual works and proposing an actionable revision.
+
+**Key controls:** Hierarchy · balance · rhythm · focal placement · audience fit · technical finish
+
+**Watch for:** Treating a grid or ratio as proof of quality.
+
+**Quality evidence:** A criterion-based critique identifies evidence, impact and one testable change.
+
+### Lab 05 — Generative Fill: Directed Inpainting
+
+**Scenario:** An editorial wildlife visual needs a plausible environmental detail without damaging the original subject.
+
+**Objective:** Use a controlled selection and Generative Fill to add, replace and remove content non-destructively.
+
+#### Detailed procedure
+
+1. Open `elephant-start.psd` and save `lab05-generative-fill.psd`.
+2. Duplicate the source group and identify protected subject edges.
+3. Draw a selection with enough surrounding context for one added environmental detail.
+4. Run Generative Fill with a concise prompt and retain at least three variations.
+5. Select the strongest variation by edge, light, scale and narrative fit.
+6. Create a second selection and use a blank prompt for a controlled removal.
+7. Inspect both edits at Fit and 100%, refining masks without flattening.
+8. Export `lab05-final.jpg` and capture the Layers panel as evidence.
+
+#### Evidence
+
+Layered PSD, selected variations, final JPEG and zoomed edge/Layers-panel evidence.
+
+#### Acceptance criteria
+
+- Original pixels remain protected.
+- Generated edits are on named generated layers with editable masks.
+- Edges, lighting and scale pass 100% inspection.
+
+Self-contained lab folder: `labs/lab-05-generative-fill/`
+
+### Lab 06 — Background Replacement and Harmonize
+
+**Scenario:** A portrait must be adapted into an outdoor campaign visual while remaining editable.
+
+**Objective:** Generate a new background, integrate a placed element and evaluate lighting, perspective and contact.
+
+#### Detailed procedure
+
+1. Open the starter PSD and save `lab06-harmonize.psd`.
+2. Inspect subject isolation and refine the mask around hair, clothing and contact edges.
+3. Generate a background that provides compatible camera height, light direction and copy space.
+4. Place `park-bench.jpg` as a Smart Object and remove its original background non-destructively.
+5. Scale and position the bench using perspective and believable subject relationship.
+6. Use Harmonize where available, outputting to an editable layer; otherwise use clipped adjustment layers.
+7. Add or refine contact shadow and compare before/after at Fit and 100%.
+8. Export `lab06-final.jpg` and record the critique criteria used.
+
+#### Evidence
+
+Layered PSD, final JPEG, before/after comparison and criterion-based integration note.
+
+#### Acceptance criteria
+
+- Subject and placed element masks remain editable.
+- Light, perspective and contact shadow are visually coherent.
+- The note evaluates at least four explicit aesthetic/technical criteria.
+
+Self-contained lab folder: `labs/lab-06-background-and-harmonize/`
+
+### Lab 07 — Generative Expand for Channel Ratios
+
+**Scenario:** A campaign hero must work across social, presentation and mobile-story channels.
+
+**Objective:** Extend one master visual into square, landscape and portrait variants without losing hierarchy.
+
+#### Detailed procedure
+
+1. Open `koala-start.psd`, save `lab07-master.psd` and identify protected subject pixels.
+2. Create a square 1:1 variant with Generative Expand and intentional copy space.
+3. Create a 16:9 landscape variant, adjusting the anchor to protect the focal point.
+4. Create a 9:16 portrait variant with adequate top and bottom safe areas.
+5. Retain at least two variations for any ratio with repeated objects or seams.
+6. Inspect edges, repeated textures and subject anatomy at 100%.
+7. Add non-destructive cleanup layers only where required.
+8. Export `lab07-square.jpg`, `lab07-landscape.jpg` and `lab07-portrait.jpg`.
+
+#### Evidence
+
+Master PSD plus three channel JPEGs and a ratio-by-ratio verification checklist.
+
+#### Acceptance criteria
+
+- All three aspect ratios are delivered.
+- Focal hierarchy and protected subject details remain intact.
+- No visible seams or repeated artefacts remain at 100%.
+
+Self-contained lab folder: `labs/lab-07-generative-expand-channel-ratios/`
+
+### Lab 08 — Reference Image and Multi-Prompt Composition
+
+**Scenario:** A fashion visual requires an altered garment treatment that follows a supplied material reference.
+
+**Objective:** Use a permitted reference image and staged selections to construct a coherent multi-element composition.
+
+#### Detailed procedure
+
+1. Open `coat-start.psd`, save `lab08-reference-image.psd` and inspect existing masks.
+2. Record the supplied reference filename and authorised learning-use context.
+3. Select only the garment region, preserving face, hands and background.
+4. Invoke Generative Fill with `garment-reference.jpeg` as the reference and a concise material/colour prompt.
+5. Review variations for garment boundary, folds, lighting and identity preservation.
+6. Create a second isolated selection for one supporting accessory or background detail.
+7. Critique the result using description, interpretation, evaluation and recommendation; make one traceable revision.
+8. Export `lab08-final.jpg` and save the critique as `lab08-critique.txt`.
+
+#### Evidence
+
+Layered reference-guided PSD, final JPEG, rights note and four-part critique with revision.
+
+#### Acceptance criteria
+
+- Protected identity and background regions remain unchanged.
+- Reference asset and selected variation are retained with the PSD.
+- The critique leads to one visible, traceable improvement.
+
+Self-contained lab folder: `labs/lab-08-reference-image-composition/`
+
+## Topic 4 — Colour Strategy, Enhancement and Delivery
+
+Build a coherent palette, preserve editability and verify the delivered visual.
+
+
+### Hue, Saturation, Brightness and Value
+
+Hue identifies colour family, saturation its intensity, and value/brightness its light-dark position.
+
+**Best used for:** Diagnosing palette and separation before choosing an adjustment.
+
+**Key controls:** Hue relationship · saturation range · value contrast · skin/brand constraints
+
+**Watch for:** Increasing saturation when the problem is value separation.
+
+**Quality evidence:** A palette swatch and grayscale review support the colour decision.
+
+### Adjustment Layers and Masks
+
+Adjustment layers store tonal or colour changes separately; masks control where each adjustment applies.
+
+**Best used for:** Reversible campaign colour work and local corrections.
+
+**Key controls:** Adjustment type · layer order · mask density · blend mode · opacity
+
+**Watch for:** Painting directly on the only copy or leaving masks unnamed.
+
+**Quality evidence:** Named adjustment layers and masks remain editable in the PSD.
+
+### Histogram and Levels
+
+The histogram displays tonal distribution; Levels remaps black point, white point and midtones.
+
+**Best used for:** Correcting global tonal range and identifying clipping.
+
+**Key controls:** Channel · black point · gamma · white point · output levels
+
+**Watch for:** Forcing every image to fill the histogram or clipping detail.
+
+**Quality evidence:** Before/after histograms and highlight/shadow checks show controlled range.
+
+### Curves
+
+Curves remaps input to output values with points that target overall tone or individual colour channels.
+
+**Best used for:** Fine contrast shaping and colour-balance correction.
+
+**Key controls:** Anchor points · slope · channel · mask · clipping preview
+
+**Watch for:** Too many points, banding or unwanted colour casts.
+
+**Quality evidence:** A labelled Curves layer and before/after comparison show the intended change.
+
+### Colour Balance and Hue/Saturation
+
+Colour Balance shifts tonal ranges toward complementary colours; Hue/Saturation targets hue families and intensity.
+
+**Best used for:** Harmonising composite elements and establishing a campaign palette.
+
+**Key controls:** Shadows/midtones/highlights · target colour range · saturation · mask
+
+**Watch for:** Global shifts that damage skin tones, neutrals or brand colours.
+
+**Quality evidence:** Sampled swatches and targeted masks demonstrate controlled application.
+
+### Neural Filters and Restoration
+
+Neural Filters provide AI-assisted transformations that can output to a new layer for further review.
+
+**Best used for:** Restoration, colourisation and portrait enhancement where source evidence is incomplete.
+
+**Key controls:** Filter model · strength · output method · local cleanup · review
+
+**Watch for:** Invented detail, identity changes or treating an AI result as historical fact.
+
+**Quality evidence:** Original, AI output and manual corrections remain separately reviewable.
+
+### Campaign Colour Consistency
+
+A campaign palette combines role-based colours, contrast targets and adjustment recipes across assets.
+
+**Best used for:** Keeping storyboard, social and poster outputs recognisably related.
+
+**Key controls:** Primary/secondary/accent roles · value range · accessibility · export profile
+
+**Watch for:** Matching hex values while ignoring surrounding colour and output profile.
+
+**Quality evidence:** A palette sheet and three channel exports show consistent roles.
+
+### Output Verification and Content Credentials
+
+Professional delivery includes export settings, reopen checks, provenance and a retained editable master.
+
+**Best used for:** Hand-off to stakeholders, publication and audit-ready delivery.
+
+**Key controls:** Format · dimensions · profile · compression · metadata · Content Credentials
+
+**Watch for:** Assuming an exported file is correct without reopening it.
+
+**Quality evidence:** PSD, verified JPEG and provenance/read-me record form one evidence package.
+
+### Lab 09 — Restoration, Critique and Colour Strategy
+
+**Scenario:** An archive image will support a heritage-wellness story but must not imply certainty where AI reconstructs missing detail.
+
+**Objective:** Restore a damaged image, evaluate invented detail and develop a reversible colour treatment.
+
+#### Detailed procedure
+
+1. Open the damaged PSD and save `lab09-restoration.psd` without altering the original layer.
+2. Use a Neural Filter or restoration workflow with output set to a new layer.
+3. Inspect faces, hands, edges and repeating texture; mask or retouch unsupported artefacts.
+4. Create a Levels or Curves adjustment layer to establish usable tonal range without clipping.
+5. Develop a restrained palette using Colour Balance or Hue/Saturation adjustment layers and masks.
+6. Compare the original, AI-only and corrected states at Fit and 100%.
+7. Write a critique distinguishing observed source detail from AI-inferred detail.
+8. Export `lab09-final.jpg` and retain a palette swatch layer in the PSD.
+
+#### Evidence
+
+Layered restoration PSD, verified JPEG, palette swatches and critique of AI-inferred detail.
+
+#### Acceptance criteria
+
+- Original, AI output and manual corrections remain separately reviewable.
+- Tonal range avoids unintended highlight/shadow clipping.
+- The critique discloses uncertainty and proposes a defensible enhancement.
+
+Self-contained lab folder: `labs/lab-09-restoration-critique-colour/`
+
+### Lab 10 — Wellness Campaign Capstone
+
+**Scenario:** Fictional Wellness Week Singapore 2026 needs a coherent hero visual and three channel exports for a positive, inclusive message.
+
+**Objective:** Integrate the full workflow into an editable campaign visual, storyboard summary, critique and colour-delivery package.
+
+#### Detailed procedure
+
+1. Open the starter PSD, save `lab10-capstone.psd` and write a brief naming audience, message and channels.
+2. Explore at least two Firefly directions; record prompt, model, references and selection rationale.
+3. Integrate the selected result with the supplied PSD using named layers, masks and generated layers.
+4. Create a three-frame storyboard strip showing problem, restorative action and outcome/CTA.
+5. Ask a peer to evaluate hierarchy, inclusivity, aesthetics, technical finish and message fit; record the feedback.
+6. Propose and implement at least two traceable enhancements based on the critique.
+7. Create a role-based colour strategy with primary, secondary and accent swatches plus reversible adjustment layers.
+8. Export square, landscape and portrait JPEGs; reopen each and record dimensions, colour profile and visual verification.
+
+#### Evidence
+
+Layered master PSD, prompt log, storyboard strip, peer critique, enhancement record, palette and three verified JPEGs.
+
+#### Acceptance criteria
+
+- The package visibly demonstrates the full workflow.
+- All adjustments and generated elements remain editable and named.
+- Three exports are reopened and pass dimension, colour and visual checks.
+- Provenance and asset-permission notes accompany delivery.
+
+Self-contained lab folder: `labs/lab-10-wellness-campaign-capstone/`
+
+## Intellectual property and responsible AI
+
+Use only assets you created or are permitted to use. Record the source, owner, licence or consent, date, allowed modifications, commercial/redistribution scope and attribution requirement. An image being publicly viewable does not itself grant reuse permission. Review current Adobe generative-AI terms before commercial work; do not use third-party content in prompts or reference images without the required rights, and retain provenance information such as Content Credentials where appropriate. This guide is educational information, not legal advice.
+
+## Source register
+
+- **Official course page:** https://www.tertiarycourses.com.sg/generative-ai-for-adobe-photoshop.html
+- **Adobe Firefly Text to Image:** https://helpx.adobe.com/firefly/web/work-with-images/generate-images/generate-images-from-text-descriptions.html
+- **Adobe Firefly Style Reference:** https://helpx.adobe.com/firefly/web/work-with-images/generate-images/reference-images-for-styling.html
+- **Adobe Firefly Composition Reference:** https://helpx.adobe.com/firefly/web/work-with-images/generate-images/match-image-composition-to-reference-image.html
+- **Adobe Photoshop Generative AI Overview:** https://helpx.adobe.com/photoshop/desktop/generative-ai/generative-ai-features-overview.html
+- **Adobe Photoshop Reference Image:** https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/use-reference-images-for-consistent-results.html
+- **Adobe Photoshop Generative Model Control:** https://helpx.adobe.com/photoshop/desktop/generative-ai/select-an-ai-model-for-generative-control.html
+- **Adobe Neural Filters:** https://helpx.adobe.com/photoshop/desktop/effects-filters/neural-filters/use-neural-filters-to-enhance-images.html
+- **Adobe Adjustment Layers:** https://helpx.adobe.com/photoshop/desktop/create-manage-layers/color-adjustment-fill-layers/adjustment-layers-options.html
+- **Adobe Curves Help:** https://helpx.adobe.com/photoshop/using/curves-adjustment.html
+- **Adobe Content Credentials:** https://helpx.adobe.com/au/firefly/web/get-started/learn-the-basics/content-credentials-overview.html
+- **Adobe Firefly Product Terms:** https://helpx.adobe.com/legal/product-descriptions/adobe-firefly.html
